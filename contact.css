@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Unique Navigation Bar - Matching Project Page Colors */
+.unique-nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+.unique-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.unique-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.unique-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.unique-nav ul li a:hover,
+.unique-nav ul li a.active {
+    color: #ff9900;
+}
+
+/* Main Contact Section */
+main {
+    
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Contact Form */
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ff9900;
+}
+
+.contact label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact textarea {
+    resize: none;
+}
+
+.contact button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.contact button:hover {
+    background: #e8e7e7;
+}
+
+/* Footer */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .unique-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .unique-nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .unique-nav ul li {
+        margin: 10px 0;
+    }
+}
